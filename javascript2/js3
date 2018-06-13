@@ -1,0 +1,40 @@
+ex1
+
+function greaterNum(a,b){
+return a-b>0? a:b;}
+undefined
+console.log(greaterNum(3,4));
+VM59:1 4
+
+
+ex2
+
+function helloWorld(lang) {
+    if (lang == 'fr') {
+        return 'Bonjour tout le monde';
+    } else if (lang == 'es') {
+        return 'Hola, Mundo';
+    } else {
+        return 'Hello, World';
+    }
+}
+
+console.log(helloWorld('en'));
+
+ex3
+function assignGrade(a){
+if(a>90){return 'A';} else if(a>80)return 'B';else if(a>70)return 'C';else return 'D';}
+undefined
+assignGrade(91);
+"A"
+
+ex4
+
+function pluralize(noun, number) {
+    if (number != 1 && noun != 'sheep' && noun != 'geese') {
+        return number + ' ' + noun + 's';
+    } else {
+        return number + ' ' + noun;
+    }
+}
+console.log('I have ' + pluralize('cat', 0));

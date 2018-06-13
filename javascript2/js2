@@ -1,0 +1,87 @@
+ex1
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+ex2
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Kiwi");
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+ex3
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1,2);
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+ex4
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var girls = ["Cecilie", "Lone"];
+var boys = ["Emil", "Tobias", "Linus"];
+var children = girls.concat(boys);
+document.getElementById("demo").innerHTML = children;
+</script>
+
+</body>
+</html>
+
+http://www.w3schools.com/js/js_array_sort.asp
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.sort();
+document.getElementById("demo").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+
